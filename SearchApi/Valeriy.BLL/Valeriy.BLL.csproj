@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Valeriy.DAL\Valeriy.DAL.csproj" />
+    <ProjectReference Include="..\Valeriy.Domain\Valeriy.Domain.csproj" />
+  </ItemGroup>
+</Project>

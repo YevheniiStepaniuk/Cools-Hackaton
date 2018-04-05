@@ -1,0 +1,13 @@
+version: "3"
+
+services: 
+    search:
+        build: "./SearchApi"
+        ports: 
+        - "3479:80"
+    webhook:
+        build: "./WebHookApi"
+        ports: 
+        - "3478:8080"
+        depends_on: 
+        - search
